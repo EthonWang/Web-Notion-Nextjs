@@ -9,17 +9,17 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Wang Next.js Notion Starter Kit',
+  name: "Wang's Place",
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  author: 'Wang',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: "Wang's Something",
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'null',
+  github: 'null',
+  linkedin: 'null',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -54,16 +54,16 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Aboutttt',
+      title: 'Home',
+      pageId: '17c5ba15faea4483b8fd5a214ddf26bd'
+    },
+    {
+      title: 'Aboutt',
       pageId: '64a4df62db974fe69d23eec7d4f74203'
     },
     {
       title: 'Contact',
       pageId: '57697684c3b84fc38ce87a094f1f7310'
     },
-    {
-      title: 'Java',
-      pageId: '3341c15b79e74e2890bb1ff7fbb80b5c'
-    }
   ]
 })
