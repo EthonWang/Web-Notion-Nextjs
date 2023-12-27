@@ -54,15 +54,15 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Home',
+      title: '主页',
       pageId: '17c5ba15faea4483b8fd5a214ddf26bd'
     },
     {
-      title: 'Aboutt',
+      title: '关于',
       pageId: '64a4df62db974fe69d23eec7d4f74203'
     },
     {
-      title: 'Contact',
+      title: '联系',
       pageId: '57697684c3b84fc38ce87a094f1f7310'
     },
   ]
