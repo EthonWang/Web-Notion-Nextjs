@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: "Wang's Place",
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'null',
   author: 'Wang',
 
   // open graph metadata (optional)
